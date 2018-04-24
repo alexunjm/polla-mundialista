@@ -5,6 +5,7 @@ const mongoosePaginate = require('mongoose-pagination');
 const Match = require("../models/match");
 const Team = require("../models/team");
 const Temporal = require("../models/temporal");
+const Stage = require("../models/stage");
 const async = require("async");
 
 /** Obtener datos de un partido */
@@ -58,6 +59,18 @@ const findTeam = (callback, nameStartsWith) =>
     (err, team) => (err ? callback(err) : callback(null, team))
   );
 
+const saveStage = (cb, stage, res) => {
+	stage.save((err, stageStored) => {
+		if (err) return cb({ status: 'error', message: 'Error al guardar la fase'}, 500);
+
+		if(stageStored) {
+			return cb(null, { status: 'ok', user: stageStored});
+		} else {
+			return cb({status: 'error', message: 'No se pudo registrar la fase'}, 404);
+		}
+	});
+};
+
 const insertMatches = (req, res) => {
 	var year = 2018;
 	if(req.params.year) {
@@ -92,7 +105,15 @@ const insertMatches = (req, res) => {
 	], (error, data) => {
 		if(error) return res.status(500).send({ status: 'error', message: 'Error en la petición', error });
 
-		return res.status(200).send({ data });
+		var stageObj = new Stage();
+		stageObj.name = stage.charAt(0).toUpperCase() + stage.slice(1);
+		saveStage((err, saved) => {
+			/**
+			 * TODO: guardar cada partido antes de responder
+			 */
+			return err ? res.status(saved).send(err) : res.status(200).send({ data, saved });
+		}, stageObj);
+		
 	});
 };
 
