@@ -53,39 +53,39 @@ const mapMatches = (results) => {
 	}
 };
 
-const algo = matches => matches.map(match => {
-	
-	return Team.findOne({ name: match.home }).exec((err, team) => {
-		match.home = team;
-		return match;
-	});
-});
+const findTeam = (callback, nameStartsWith) =>
+  Team.findOne({ name: { $regex: new RegExp(`^${nameStartsWith}`) } }).exec(
+    (err, team) => (err ? callback(err) : callback(null, team))
+  );
 
 const insertMatches = (req, res) => {
+	var year = 2018;
+	if(req.params.year) {
+		year = req.params.year;
+	}
+	var stage = "group stage";
+	if (req.params.stage) {
+		stage = req.params.stage;
+	}
 	async.waterfall([
 		(cb) => 
-			Temporal.find({ year: 2018, stage: "group stage"}).exec((err, results) => {
+			Temporal.find({ year, stage}).exec((err, results) => {
 				if (err) cb(err);
 		
-				if (!results) return res.status(404).send({ status: 'error', message: 'No hay temporales disponibles' });
-		
+				if (!(results && results.length)) {
+					return res.status(404).send({
+						status: 'error',
+						message: 'No hay temporales disponibles' 
+					});
+				}
 				cb(null, results);
 			}),
 		(results, cb) => cb(null, mapMatches(results)),
 		(matches, cb) => {
 			async.map(matches, (match, cbMap) =>
-				async.series(
-					{
-					home: callback =>
-						Team.findOne({ name: { $regex : new RegExp(`^${match.home}`) } }).exec(
-						(err, team) =>
-							err ? callback(err) : callback(null, team)
-						),
-					away: callback =>
-						Team.findOne({ name: { $regex : new RegExp(`^${match.away}`) } }).exec(
-						(err, team) =>
-							err ? callback(err) : callback(null, team)
-						)
+				async.series({
+						home: callback => findTeam(callback, match.home),
+						away: callback => findTeam(callback, match.away)
 					}, (err, matchRes) => err ? cbMap(err) : cbMap(null, {detail: matchRes, match})
 				), (error, result) => error ? cb(error) : cb(null, result));
 		},
