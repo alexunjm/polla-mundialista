@@ -86,7 +86,7 @@ const insertMatches = (req, res) => {
 						(err, team) =>
 							err ? callback(err) : callback(null, team)
 						)
-					}, (err, matchRes) => err ? cbMap(err) : cbMap(null, matchRes)
+					}, (err, matchRes) => err ? cbMap(err) : cbMap(null, {detail: matchRes, match})
 				), (error, result) => error ? cb(error) : cb(null, result));
 		},
 	], (error, data) => {
