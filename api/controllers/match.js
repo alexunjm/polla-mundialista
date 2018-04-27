@@ -1,6 +1,7 @@
 'use strict'
 
 const mongoosePaginate = require('mongoose-pagination');
+const moment = require("moment");
 
 const Match = require("../models/match");
 const Team = require("../models/team");
@@ -59,16 +60,33 @@ const findTeam = (callback, nameStartsWith) =>
     (err, team) => (err ? callback(err) : callback(null, team))
   );
 
-const saveStage = (cb, stage, res) => {
-	stage.save((err, stageStored) => {
-		if (err) return cb({ status: 'error', message: 'Error al guardar la fase'}, 500);
+const saveStage = (stage, cb) => {
+	Stage.findOne({name: stage.name}).exec(
+		(err, foundStage) => {
+			if(err) return cb({status: 'error', message: 'Error de conexión a la bd', err}, 500);
 
-		if(stageStored) {
-			return cb(null, { status: 'ok', user: stageStored});
-		} else {
-			return cb({status: 'error', message: 'No se pudo registrar la fase'}, 404);
+			if(foundStage) return cb(null, { status: 'ok', stage: foundStage}, 200);
+
+			stage.save((err, stageStored) => {
+				if (err) return cb({ status: 'error', message: 'Error al guardar la fase'}, 500);
+		
+				if(stageStored) return cb(null, { status: 'ok', stage: stageStored});
+				return cb({status: 'error', message: 'No se pudo registrar la fase'}, 404);
+			});
 		}
-	});
+	);
+};
+
+const saveMatch = (match, stage, cb) => {
+	const matchObj = new Match();
+	matchObj.home_team = match.detail.home._id;
+	matchObj.away_team = match.detail.away._id;
+	matchObj.stage = stage._id;
+	matchObj.date = moment().unix();
+	/**
+	 * TODO: guardar cada partido antes de responder ;)
+	 */
+	return cb(null, matchObj);
 };
 
 const insertMatches = (req, res) => {
@@ -80,40 +98,39 @@ const insertMatches = (req, res) => {
 	if (req.params.stage) {
 		stage = req.params.stage;
 	}
-	async.waterfall([
-		(cb) => 
-			Temporal.find({ year, stage}).exec((err, results) => {
-				if (err) cb(err);
-		
-				if (!(results && results.length)) {
-					return res.status(404).send({
-						status: 'error',
-						message: 'No hay temporales disponibles' 
-					});
-				}
-				cb(null, results);
-			}),
-		(results, cb) => cb(null, mapMatches(results)),
-		(matches, cb) => {
-			async.map(matches, (match, cbMap) =>
-				async.series({
-						home: callback => findTeam(callback, match.home),
-						away: callback => findTeam(callback, match.away)
-					}, (err, matchRes) => err ? cbMap(err) : cbMap(null, {detail: matchRes, match})
-				), (error, result) => error ? cb(error) : cb(null, result));
-		},
-	], (error, data) => {
-		if(error) return res.status(500).send({ status: 'error', message: 'Error en la petición', error });
 
-		var stageObj = new Stage();
-		stageObj.name = stage.charAt(0).toUpperCase() + stage.slice(1);
-		saveStage((err, saved) => {
-			/**
-			 * TODO: guardar cada partido antes de responder
-			 */
-			return err ? res.status(saved).send(err) : res.status(200).send({ data, saved });
-		}, stageObj);
+	var stageObj = new Stage();
+	stageObj.name = stage.charAt(0).toUpperCase() + stage.slice(1);
+	saveStage(stageObj, (err, savedStage) => {
+		if(err) return res.status(savedStage).send(err);
 		
+		async.waterfall([
+			(cb) => 
+				Temporal.find({ year, stage}).exec((err, results) => {
+					if (err) cb(err);
+			
+					if (!(results && results.length)) {
+						return res.status(404).send({
+							status: 'error',
+							message: 'No hay temporales disponibles' 
+						});
+					}
+					cb(null, results);
+				}),
+			(results, cb) => cb(null, mapMatches(results)),
+			(matches, cb) => {
+				async.map(matches, (match, cbMap) =>
+					async.series({
+							home: callback => findTeam(callback, match.home),
+							away: callback => findTeam(callback, match.away)
+						}, (err, matchRes) => err ? cbMap(err) : saveMatch({detail: matchRes, match}, savedStage.stage, cbMap)
+					), (error, result) => error ? cb(error) : cb(null, result));
+			},
+		], (error, data) => {
+			if(error) return res.status(500).send({ status: 'error', message: 'Error en la petición', error });
+			
+			return err ? res.status(404).send(err) : res.status(200).send({ data, savedStage });
+		});
 	});
 };
 
