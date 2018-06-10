@@ -22,6 +22,37 @@ const getMatch = (req, res) => {
 	});
 };
 
+const findData = (matches, cbFD) => {
+	async.map(matches, 
+		(match, cb) => {
+			async.parallel({
+				stage: (_cb) => {
+					Stage.findById(match.stage, (err, stage) => err ? _cb(err) : _cb(null, stage));
+				},
+				home_team: (_cb) => {
+					Team.findById(match.home_team, (err, team) => err ? _cb(err) : _cb(null, team));
+				},
+				away_team: (_cb) => {
+					Team.findById(match.away_team, (err, team) => (err ? _cb(err) : _cb(null, team)));
+				}
+			}, (error, data) => {
+				if (error) cb(error);
+		
+				match.stage = data.stage;
+				match.home_team = data.home_team;
+				match.away_team = data.away_team;
+				cb(null, match);
+			});
+
+		},
+		(error, data) => {
+			if (error) cbFD(error);
+
+			cbFD(null, data);
+		}
+	);
+}
+
 /** Devolver un listado de partidos paginado */
 const getMatches = (req, res) => {
 	const identityUserId = req.user.sub;
@@ -38,8 +69,12 @@ const getMatches = (req, res) => {
 		if (err) return res.status(500).send({ status: 'error', message: 'Error en la petición' });
 
 		if (!matches) return res.status(404).send({ status: 'error', message: 'No hay partidos disponibles' });
+		
+		findData(matches, (error, result) => {
+			if (error) return res.status(500).send({ status: 'error', message: error });
 
-		return res.status(200).send({ matches, total, pages: Math.ceil(total/itemsPerPage) });
+			return res.status(200).send({ matches: result, total, pages: Math.ceil(total/itemsPerPage) });
+		});
 	});
 }
 
@@ -84,9 +119,14 @@ const saveMatch = (match, stage, cb) => {
 	matchObj.stage = stage._id;
 	matchObj.date = moment().unix();
 	/**
-	 * TODO: guardar cada partido antes de responder ;)
+	 * guardar partido antes de responder
 	 */
-	return cb(null, matchObj);
+	matchObj.save((err, matchStored) => {
+		if (err) return cb({ status: 'error', message: 'Error al guardar el partido', matchObj }, 500);
+
+		if (matchStored) return cb(null, matchStored);
+		return cb({ status: 'error', message: 'No se pudo registrar el partido', matchObj }, 404);
+	});
 };
 
 const insertMatches = (req, res) => {

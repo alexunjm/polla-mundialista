@@ -313,3 +313,435 @@
 ## Final
 ## Domingo 15 de julio
 ## Ganador SF1 - Ganador SF2: 17:00 HEC, Moscú (Luzhniki)
+
+/* 1 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810b"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810a"),
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8117"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8116"),
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8115"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8114"),
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8113"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8112"),
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8111"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8110"),
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810d"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810c"),
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810f"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810e"),
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8119"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8118"),
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811f"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8121"),
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811c"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811b"),
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8123"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8125"),
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8129"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8128"),
+    "__v" : 0
+}
+
+/* 13 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811e"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8121"),
+    "__v" : 0
+}
+
+/* 14 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8124"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8122"),
+    "__v" : 0
+}
+
+/* 15 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8123"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8122"),
+    "__v" : 0
+}
+
+/* 16 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8114"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8113"),
+    "__v" : 0
+}
+
+/* 17 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8125"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8124"),
+    "__v" : 0
+}
+
+/* 18 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811f"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811e"),
+    "__v" : 0
+}
+
+/* 19 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810e"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8111"),
+    "__v" : 0
+}
+
+/* 20 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8114"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8112"),
+    "__v" : 0
+}
+
+/* 21 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8128"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8127"),
+    "__v" : 0
+}
+
+/* 22 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8128"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8126"),
+    "__v" : 0
+}
+
+/* 23 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8110"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810e"),
+    "__v" : 0
+}
+
+/* 24 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811a"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811d"),
+    "__v" : 0
+}
+
+/* 25 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810b"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810d"),
+    "__v" : 0
+}
+
+/* 26 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8127"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8126"),
+    "__v" : 0
+}
+
+/* 27 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8118"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8117"),
+    "__v" : 0
+}
+
+/* 28 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811b"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811d"),
+    "__v" : 0
+}
+
+/* 29 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8121"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8120"),
+    "__v" : 0
+}
+
+/* 30 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8112"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8115"),
+    "__v" : 0
+}
+
+/* 31 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8118"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8116"),
+    "__v" : 0
+}
+
+/* 32 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8124"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8123"),
+    "__v" : 0
+}
+
+/* 33 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811d"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811c"),
+    "__v" : 0
+}
+
+/* 34 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810c"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810b"),
+    "__v" : 0
+}
+
+/* 35 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810f"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8111"),
+    "__v" : 0
+}
+
+/* 36 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8126"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8129"),
+    "__v" : 0
+}
+
+/* 37 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8127"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8129"),
+    "__v" : 0
+}
+
+/* 38 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810c"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810a"),
+    "__v" : 0
+}
+
+/* 39 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8120"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811f"),
+    "__v" : 0
+}
+
+/* 40 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8120"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811e"),
+    "__v" : 0
+}
+
+/* 41 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811c"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811a"),
+    "__v" : 0
+}
+
+/* 42 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8116"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8119"),
+    "__v" : 0
+}
+
+/* 43 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8117"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8119"),
+    "__v" : 0
+}
+
+/* 44 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d811b"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d811a"),
+    "__v" : 0
+}
+
+/* 45 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8113"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8115"),
+    "__v" : 0
+}
+
+/* 46 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8122"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d8125"),
+    "__v" : 0
+}
+
+/* 47 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d810a"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810d"),
+    "__v" : 0
+}
+
+/* 48 */
+{
+    "date" : "1528589230",
+    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
+    "away_team" : ObjectId("5ade65a411c122f9c65d8110"),
+    "home_team" : ObjectId("5ade65a411c122f9c65d810f"),
+    "__v" : 0
+}
