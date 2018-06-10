@@ -1,3 +1,16 @@
+## Comandos luego de tener instalado mongo
+## arrancamos la base de datos
+$ cd api/ && npm run db
+## En otra terminal iniciamos la consola de mongo
+$ mongo
+## Validamos que bases de datos hay
+show dbs
+## Cambiamos a la base de datos polla_mundialista_2018
+use polla_mundialista_2018
+
+#######################################################
+
+
 ## ver todos los usuarios
 db.users.find()
 ## insertar un usuario (con contraseña test)
