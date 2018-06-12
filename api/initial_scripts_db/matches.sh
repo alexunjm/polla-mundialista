@@ -745,3 +745,67 @@
     "home_team" : ObjectId("5ade65a411c122f9c65d810f"),
     "__v" : 0
 }
+
+
+
+
+
+
+/************************************
+*/
+/* 1 */
+db.temporals.insert(
+{
+    "year" : 2018,
+    "stage" : "group stage",
+    "matches" : [ 
+        "Rusia - Arabia", 
+        "Egipto - Uruguay", 
+        "Marruecos - Irán", 
+        "Portugal - España", 
+        "Francia - Australia", 
+        "Argentina - Islandia", 
+        "Perú - Dinamarca", 
+        "Croacia - Nigeria", 
+        "Costa - Serbia", 
+        "Alemania - México", 
+        "Brasil - Suiza", 
+        "Suecia - Korea", 
+        "Bélgica - Panamá", 
+        "Túnez - Inglaterra", 
+        "Polonia - Senegal", 
+        "Colombia - Japón", 
+        "Rusia - Egipto", 
+        "Portugal - Marruecos", 
+        "Uruguay - Arabia", 
+        "Irán - España", 
+        "Francia - Perú", 
+        "Dinamarca - Australia", 
+        "Argentina - Croacia", 
+        "Brasil - Costa", 
+        "Nigeria - Islandia", 
+        "Serbia - Suiza", 
+        "Bélgica - Túnez", 
+        "Alemania - Suecia", 
+        "Korea - México", 
+        "Inglaterra - Panamá", 
+        "Japón - Senegal", 
+        "Polonia - Colombia", 
+        "Uruguay - Rusia", 
+        "Arabia - Egipto", 
+        "Irán - Portugal", 
+        "España - Marruecos", 
+        "Dinamarca - Francia", 
+        "Australia - Perú", 
+        "Nigeria - Argentina", 
+        "Islandia - Croacia", 
+        "Korea - Alemania", 
+        "México - Suecia", 
+        "Serbia - Brasil", 
+        "Suiza - Costa", 
+        "Japón - Polonia", 
+        "Senegal - Colombia", 
+        "Inglaterra - Bélgica", 
+        "Panamá - Túnez"
+    ]
+});
