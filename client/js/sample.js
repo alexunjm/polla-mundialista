@@ -1,1 +1,0 @@
-console.log('este es un js de ejemplo');
