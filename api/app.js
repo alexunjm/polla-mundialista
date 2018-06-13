@@ -8,7 +8,8 @@ var app = express();
 //cargar rutas
 var user_router = require("./routes/user");
 var team_router = require("./routes/team");
-var match_router = require('./routes/match');
+var match_router = require("./routes/match");
+var forecast_router = require('./routes/forecast');
 
 //middleware
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -28,6 +29,7 @@ app.use((req, res, next) => {
 app.use("/api", user_router);
 app.use("/api", team_router);
 app.use("/api", match_router);
+app.use("/api", forecast_router);
 
 //exportar
 module.exports = app;

@@ -3,12 +3,12 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var ResultSchema = Schema({
+var ForecastSchema = Schema({
   match: { type: Schema.ObjectId, ref: "Matche" },
   user: { type: Schema.ObjectId, ref: "User" },
-  home: number,
-  away: number,
+  home: Number,
+  away: Number,
   last_update: String
 });
 
-module.exports = mongoose.model('Result', ResultSchema);
+module.exports = mongoose.model('Forecast', ForecastSchema);

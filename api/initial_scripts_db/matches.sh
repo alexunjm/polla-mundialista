@@ -314,440 +314,16 @@
 ## Domingo 15 de julio
 ## Ganador SF1 - Ganador SF2: 17:00 HEC, Moscú (Luzhniki)
 
-/* 1 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810b"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810a"),
-    "__v" : 0
-}
-
-/* 2 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8117"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8116"),
-    "__v" : 0
-}
-
-/* 3 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8115"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8114"),
-    "__v" : 0
-}
-
-/* 4 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8113"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8112"),
-    "__v" : 0
-}
-
-/* 5 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8111"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8110"),
-    "__v" : 0
-}
-
-/* 6 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810d"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810c"),
-    "__v" : 0
-}
-
-/* 7 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810f"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810e"),
-    "__v" : 0
-}
-
-/* 8 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8119"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8118"),
-    "__v" : 0
-}
-
-/* 9 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811f"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8121"),
-    "__v" : 0
-}
-
-/* 10 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811c"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811b"),
-    "__v" : 0
-}
-
-/* 11 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8123"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8125"),
-    "__v" : 0
-}
-
-/* 12 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8129"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8128"),
-    "__v" : 0
-}
-
-/* 13 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811e"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8121"),
-    "__v" : 0
-}
-
-/* 14 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8124"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8122"),
-    "__v" : 0
-}
-
-/* 15 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8123"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8122"),
-    "__v" : 0
-}
-
-/* 16 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8114"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8113"),
-    "__v" : 0
-}
-
-/* 17 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8125"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8124"),
-    "__v" : 0
-}
-
-/* 18 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811f"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811e"),
-    "__v" : 0
-}
-
-/* 19 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810e"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8111"),
-    "__v" : 0
-}
-
-/* 20 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8114"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8112"),
-    "__v" : 0
-}
-
-/* 21 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8128"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8127"),
-    "__v" : 0
-}
-
-/* 22 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8128"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8126"),
-    "__v" : 0
-}
-
-/* 23 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8110"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810e"),
-    "__v" : 0
-}
-
-/* 24 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811a"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811d"),
-    "__v" : 0
-}
-
-/* 25 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810b"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810d"),
-    "__v" : 0
-}
-
-/* 26 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8127"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8126"),
-    "__v" : 0
-}
-
-/* 27 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8118"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8117"),
-    "__v" : 0
-}
-
-/* 28 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811b"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811d"),
-    "__v" : 0
-}
-
-/* 29 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8121"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8120"),
-    "__v" : 0
-}
-
-/* 30 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8112"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8115"),
-    "__v" : 0
-}
-
-/* 31 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8118"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8116"),
-    "__v" : 0
-}
-
-/* 32 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8124"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8123"),
-    "__v" : 0
-}
-
-/* 33 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811d"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811c"),
-    "__v" : 0
-}
-
-/* 34 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810c"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810b"),
-    "__v" : 0
-}
-
-/* 35 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810f"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8111"),
-    "__v" : 0
-}
-
-/* 36 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8126"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8129"),
-    "__v" : 0
-}
-
-/* 37 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8127"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8129"),
-    "__v" : 0
-}
-
-/* 38 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810c"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810a"),
-    "__v" : 0
-}
-
-/* 39 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8120"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811f"),
-    "__v" : 0
-}
-
-/* 40 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8120"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811e"),
-    "__v" : 0
-}
-
-/* 41 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811c"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811a"),
-    "__v" : 0
-}
-
-/* 42 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8116"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8119"),
-    "__v" : 0
-}
-
-/* 43 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8117"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8119"),
-    "__v" : 0
-}
-
-/* 44 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d811b"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d811a"),
-    "__v" : 0
-}
-
-/* 45 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8113"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8115"),
-    "__v" : 0
-}
-
-/* 46 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8122"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d8125"),
-    "__v" : 0
-}
-
-/* 47 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d810a"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810d"),
-    "__v" : 0
-}
-
-/* 48 */
-{
-    "date" : "1528589230",
-    "stage" : ObjectId("5ae35bd0d47434326c6968a5"),
-    "away_team" : ObjectId("5ade65a411c122f9c65d8110"),
-    "home_team" : ObjectId("5ade65a411c122f9c65d810f"),
-    "__v" : 0
-}
-
-
-
+## partidos por stage
+## 	agregar array con los objetos result
+## 		user, home, away
+localhost:3800/api/matches/stage/5b208f9135592c37971a75ac
+## guardar pronostico (resultado) de usuario result == null si no existe
+##  	match, result, home, away
+localhost:3800/api/forecast/save
+## agregar stages y matches
+## tipo post donde se puede enviar json con los partidos de un grupo
+localhost:3800/api/match/insert/tmp/f
 
 
 
@@ -757,55 +333,248 @@
 db.temporals.insert(
 {
     "year" : 2018,
-    "stage" : "group stage",
+    "stage" : "gs1",
     "matches" : [ 
-        "Rusia - Arabia", 
-        "Egipto - Uruguay", 
-        "Marruecos - Irán", 
-        "Portugal - España", 
-        "Francia - Australia", 
-        "Argentina - Islandia", 
-        "Perú - Dinamarca", 
-        "Croacia - Nigeria", 
-        "Costa - Serbia", 
-        "Alemania - México", 
-        "Brasil - Suiza", 
-        "Suecia - Korea", 
-        "Bélgica - Panamá", 
-        "Túnez - Inglaterra", 
-        "Polonia - Senegal", 
-        "Colombia - Japón", 
-        "Rusia - Egipto", 
-        "Portugal - Marruecos", 
-        "Uruguay - Arabia", 
-        "Irán - España", 
-        "Francia - Perú", 
-        "Dinamarca - Australia", 
-        "Argentina - Croacia", 
-        "Brasil - Costa", 
-        "Nigeria - Islandia", 
-        "Serbia - Suiza", 
-        "Bélgica - Túnez", 
-        "Alemania - Suecia", 
-        "Korea - México", 
-        "Inglaterra - Panamá", 
-        "Japón - Senegal", 
-        "Polonia - Colombia", 
-        "Uruguay - Rusia", 
-        "Arabia - Egipto", 
-        "Irán - Portugal", 
-        "España - Marruecos", 
-        "Dinamarca - Francia", 
-        "Australia - Perú", 
-        "Nigeria - Argentina", 
-        "Islandia - Croacia", 
-        "Korea - Alemania", 
-        "México - Suecia", 
-        "Serbia - Brasil", 
-        "Suiza - Costa", 
-        "Japón - Polonia", 
-        "Senegal - Colombia", 
-        "Inglaterra - Bélgica", 
-        "Panamá - Túnez"
+        {
+			match: "Rusia - Arabia",
+			date: {
+				y: 2018, m: 6, d: 14, h: 10
+			}
+		}, {
+			match: "Egipto - Uruguay",
+			date: {
+				y: 2018, m: 6, d: 15, h: 7
+			}
+		}, {
+			match: "Marruecos - Irán",
+			date: {
+				y: 2018, m: 6, d: 15, h: 10
+			}
+		}, {
+			match: "Portugal - España",
+			date: {
+				y: 2018, m: 6, d: 15, h: 13
+			}
+		}, {
+			match: "Francia - Australia",
+			date: {
+				y: 2018, m: 6, d: 16, h: 5
+			}
+		}, {
+			match: "Argentina - Islandia",
+			date: {
+				y: 2018, m: 6, d: 16, h: 8
+			}
+		}, {
+			match: "Perú - Dinamarca",
+			date: {
+				y: 2018, m: 6, d: 16, h: 11
+			}
+		}, {
+			match: "Croacia - Nigeria",
+			date: {
+				y: 2018, m: 6, d: 16, h: 14
+			}
+		}, {
+			match: "Costa - Serbia",
+			date: {
+				y: 2018, m: 6, d: 17, h: 7
+			}
+		}, {
+			match: "Alemania - México",
+			date: {
+				y: 2018, m: 6, d: 17, h: 10
+			}
+		}, {
+			match: "Brasil - Suiza",
+			date: {
+				y: 2018, m: 6, d: 17, h: 13
+			}
+		}, {
+			match: "Suecia - Korea",
+			date: {
+				y: 2018, m: 6, d: 18, h: 7
+			}
+		}, {
+			match: "Bélgica - Panamá",
+			date: {
+				y: 2018, m: 6, d: 18, h: 10
+			}
+		}, {
+			match: "Túnez - Inglaterra",
+			date: {
+				y: 2018, m: 6, d: 18, h: 13
+			}
+		}, {
+			match: "Polonia - Senegal",
+			date: {
+				y: 2018, m: 6, d: 19, h: 7
+			}
+		}, {
+			match: "Colombia - Japón",
+			date: {
+				y: 2018, m: 6, d: 19, h: 10
+			}
+		}, {
+			match: "Rusia - Egipto",
+			date: {
+				y: 2018, m: 6, d: 19, h: 13
+			}
+		}, {
+			match: "Portugal - Marruecos",
+			date: {
+				y: 2018, m: 6, d: 20, h: 7
+			}
+		}, {
+			match: "Uruguay - Arabia",
+			date: {
+				y: 2018, m: 6, d: 20, h: 10
+			}
+		}, {
+			match: "Irán - España",
+			date: {
+				y: 2018, m: 6, d: 20, h: 13
+			}
+		}, {
+			match: "Francia - Perú",
+			date: {
+				y: 2018, m: 6, d: 21, h: 7
+			}
+		}, {
+			match: "Dinamarca - Australia",
+			date: {
+				y: 2018, m: 6, d: 21, h: 10
+			}
+		}, {
+			match: "Argentina - Croacia",
+			date: {
+				y: 2018, m: 6, d: 21, h: 13
+			}
+		}, {
+			match: "Brasil - Costa",
+			date: {
+				y: 2018, m: 6, d: 22, h: 7
+			}
+		}, {
+			match: "Nigeria - Islandia",
+			date: {
+				y: 2018, m: 6, d: 22, h: 10
+			}
+		}, {
+			match: "Serbia - Suiza",
+			date: {
+				y: 2018, m: 6, d: 22, h: 13
+			}
+		}, {
+			match: "Bélgica - Túnez",
+			date: {
+				y: 2018, m: 6, d: 23, h: 7
+			}
+		}, {
+			match: "Korea - México",
+			date: {
+				y: 2018, m: 6, d: 23, h: 10
+			}
+		}, {
+			match: "Alemania - Suecia",
+			date: {
+				y: 2018, m: 6, d: 23, h: 13
+			}
+		}, {
+			match: "Inglaterra - Panamá",
+			date: {
+				y: 2018, m: 6, d: 24, h: 7
+			}
+		}, {
+			match: "Japón - Senegal",
+			date: {
+				y: 2018, m: 6, d: 24, h: 10
+			}
+		}, {
+			match: "Polonia - Colombia",
+			date: {
+				y: 2018, m: 6, d: 24, h: 13
+			}
+		}, {
+			match: "Arabia - Egipto",
+			date: {
+				y: 2018, m: 6, d: 25, h: 9
+			}
+		}, {
+			match: "Uruguay - Rusia",
+			date: {
+				y: 2018, m: 6, d: 25, h: 9
+			}
+		}, {
+			match: "Irán - Portugal",
+			date: {
+				y: 2018, m: 6, d: 25, h: 13
+			}
+		}, {
+			match: "España - Marruecos",
+			date: {
+				y: 2018, m: 6, d: 25, h: 13
+			}
+		}, {
+			match: "Dinamarca - Francia",
+			date: {
+				y: 2018, m: 6, d: 26, h: 9
+			}
+		}, {
+			match: "Australia - Perú",
+			date: {
+				y: 2018, m: 6, d: 26, h: 9
+			}
+		}, {
+			match: "Nigeria - Argentina",
+			date: {
+				y: 2018, m: 6, d: 26, h: 13
+			}
+		}, {
+			match: "Islandia - Croacia",
+			date: {
+				y: 2018, m: 6, d: 26, h: 13
+			}
+		}, {
+			match: "México - Suecia",
+			date: {
+				y: 2018, m: 6, d: 27, h: 9
+			}
+		}, {
+			match: "Korea - Alemania",
+			date: {
+				y: 2018, m: 6, d: 27, h: 9
+			}
+		}, {
+			match: "Suiza - Costa",
+			date: {
+				y: 2018, m: 6, d: 27, h: 13
+			}
+		}, {
+			match: "Serbia - Brasil",
+			date: {
+				y: 2018, m: 6, d: 27, h: 13
+			}
+		}, {
+			match: "Senegal - Colombia",
+			date: {
+				y: 2018, m: 6, d: 28, h: 9
+			}
+		}, {
+			match: "Japón - Polonia",
+			date: {
+				y: 2018, m: 6, d: 28, h: 9
+			}
+		}, {
+			match: "Inglaterra - Bélgica",
+			date: {
+				y: 2018, m: 6, d: 28, h: 13
+			}
+		}, {
+			match: "Panamá - Túnez",
+			date: {
+				y: 2018, m: 6, d: 28, h: 13
+			}
+		}
     ]
 });
